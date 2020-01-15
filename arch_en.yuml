@@ -1,0 +1,15 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[ntkc]^[Transmission Control]
+[ntkc]^[High-precision Timer Controller]
+[Transmission Control]^[Windows Winsock API]
+[Transmission Control]^[Linux Socket API]
+[High-precision Timer Controller]^[HPET Linux Kernel Driver]
+[High-precision Timer Controller]^[HPET Windows Kernel Driver]
+[ntks]^[Disordered Delivery Statistics]
+[ntks]^[Transmission Control]
+[ntks]^[CLI Processor]
+[ntkc]^[CLI Processor]
+[ntkc]^[Latency Statistics]

@@ -1,0 +1,15 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[ntkc]^[网络传输组件]
+[ntkc]^[精密定时组件]
+[网络传输组件]^[Windows Winsock API]
+[网络传输组件]^[Linux Socket API]
+[精密定时组件]^[HPET Linux Kernel Driver]
+[精密定时组件]^[HPET Windows Kernel Driver]
+[ntks]^[乱序统计组件]
+[ntks]^[网络传输组件]
+[ntks]^[命令行参数处理]
+[ntkc]^[命令行参数处理]
+[ntkc]^[延时统计组件]

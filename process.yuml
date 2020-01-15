@@ -1,0 +1,12 @@
+// {type:sequence}
+// {generate:true}
+
+[ntkc]1.establish session>[ntks]
+[ntks]2.response>[ntkc]
+[ntkc]3.send a packet>[ntks]
+[ntks]4.record disordered delivery>[ntks]
+[ntks]5.send back>[ntkc]
+[ntkc]6.calc round-trip delay>[ntkc]
+[ntkc]7.request transmission report>[ntks]
+[ntks]8.send transmission report>[ntkc]
+[ntkc]9.close session>[ntks]
